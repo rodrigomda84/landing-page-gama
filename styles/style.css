@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.container{
+
+}
+
+.menu{
+    height: 70px;
+    background: rgba(255, 235, 56, 0.986);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img{
+    height: 40px;
+    margin: 10px 10px;
+    color: rgb(223, 221, 221);
+}
+
+.logo h2{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navegacao{
+    
+    
+}
+
+.navegacao > ul{
+    /* margin-left: 100px; */
+    padding-left: 15px;
+    display: flex;
+    
+
+   
+}
+
+.navegacao  li{
+    margin-left: 40px;
+    
+}
+.navegacao ul a{
+    text-decoration:none ;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.navegacao ul a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+
+}
+.meio{
+    display: flex;
+    align-items: center;
+}
+
+.meio-imagem img{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    filter: blur(1px) brightness(40%);
+    position: absolute;
+       
+}
+
+.meio-texto{
+    width: 400px;
+    margin-right: 150px;
+    
+}
+.meio-texto p{
+    color:rgb(223, 221, 221);
+    position: absolute;
+    width: 400px;
+    margin-right: 150px;
+    font-size: 60px;
+    text-align: center;
+    left: 220px;
+    bottom: 200px;
+}
+
+.formulario{
+    position: absolute;
+    right: 350px; 
+    top: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.formulario h3{
+    color: #fff;
+    text-align: center;
+    word-break: break-all;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+.email{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background:rgba(255, 235, 56, 0.7);
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn:hover{
+    background:rgba(255, 235, 56, 0.986);
+    color:rgb(0, 0, 0)
+}
+/* INFO */
+
+.info{
+    width: 100%;
+    height: 1000px;
+}
